@@ -9,7 +9,7 @@ var fs = require("fs");
 var path = require("path");
 
 var rousseau = require("../lib");
-var tokenizeHTML = require("@textlint-rule/@textlint-rule/tokenize-htmltext");
+var tokenizeHTML = require("@textlint-rule/tokenize-htmltext");
 
 // Colors for levels
 var LEVELS = {
