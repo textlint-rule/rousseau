@@ -1,4 +1,4 @@
-# tokenize-text
+# @textlint-rule/tokenize-text
 
 [![Build Status](https://travis-ci.org/GitbookIO/tokenize-text.png?branch=master)](https://travis-ci.org/GitbookIO/tokenize-text)
 [![NPM version](https://badge.fury.io/js/tokenize-text.svg)](http://badge.fury.io/js/tokenize-text)
@@ -8,13 +8,13 @@ Javascript text tokenizer that is easy to use and compose.
 ### Installation
 
 ```
-$ npm install tokenize-text
+$ npm install @textlint-rule/tokenize-text
 ```
 
 ### Usage
 
 ```js
-var Tokenizer = require('tokenize-text');
+var Tokenizer = require('@textlint-rule/tokenize-text');
 var tokenize = new Tokenizer();
 ```
 

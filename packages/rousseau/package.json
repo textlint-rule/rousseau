@@ -11,9 +11,9 @@
     "find-line-column": "0.5.2",
     "lodash": "^4.17.21",
     "simple-lru-cache": "^0.0.2",
-    "tokenize-english": "1.0.3",
-    "tokenize-htmltext": "1.0.0",
-    "tokenize-text": "1.1.3"
+    "@textlint-rule/tokenize-english": "^1.0.3",
+    "@textlint-rule/tokenize-htmltext": "^1.0.0",
+    "@textlint-rule/tokenize-text": "^1.1.3"
   },
   "devDependencies": {
     "should": "^13.2.3",
@@ -21,7 +21,6 @@
   },
   "scripts": {
     "test": "mocha --reporter spec --recursive --bail",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "bin": {
