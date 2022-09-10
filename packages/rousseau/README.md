@@ -6,13 +6,13 @@ Rousseau is a lightweight proofreader written in Javascript, it can be used in N
 ### Installation
 
 ```
-$ npm install rousseau
+$ npm install @textlint-rule/rousseau
 ```
 
 ### API
 
 ```js
-var rousseau = require("rousseau");
+var rousseau = require("@textlint-rule/rousseau");
 
 rousseau('So the cat was stolen.', function(err, results) {
     ...
