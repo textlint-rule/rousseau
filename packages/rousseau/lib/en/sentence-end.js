@@ -3,7 +3,7 @@
 
 var tokenize = require("../tokenize");
 var levels = require("../levels");
-var english = require("tokenize-english")(tokenize);
+var english = require("@textlint-rule/tokenize-english")(tokenize);
 
 module.exports = tokenize.check(
     // Tokenize as sentences

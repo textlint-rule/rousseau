@@ -1,5 +1,5 @@
 var _ = require("lodash");
-var Tokenizer = require("tokenize-text");
+var Tokenizer = require("@textlint-rule/tokenize-text");
 
 var cache = require("./cache").namespace("tokenizer");
 

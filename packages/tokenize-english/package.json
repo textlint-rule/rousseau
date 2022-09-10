@@ -1,0 +1,28 @@
+{
+  "name": "@textlint-rule/tokenize-english",
+  "version": "1.0.3",
+  "homepage": "https://github.com/GitbookIO/tokenize-english",
+  "description": "Tokenizer for english sentences",
+  "main": "lib/index.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "mocha": "10.0.0",
+    "should": "^13.2.3",
+    "@textlint-rule/tokenize-text": "^1.1.2",
+    "@textlint-rule/tokenize-htmltext": "^1.0.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --recursive --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitbookIO/tokenize-english.git"
+  },
+  "author": "GitBook <contact@gitbook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GitbookIO/tokenize-english/issues"
+  }
+}

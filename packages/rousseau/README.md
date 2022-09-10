@@ -1,25 +1,18 @@
 
 ![Rousseau](./preview.jpg)
 
-:memo: fork of [GitbookIO/rousseau: Lightweight proofreader in JS](https://github.com/GitbookIO/rousseau)
-
-This monorepo includes following packages:
-
-- [packages/rousseau](rousseau)
-- [packages/tokenize-english](tokenize-english)
-- [packages/tokenize-htmltext](tokenize-htmltext)
-- [packages/tokenize-text](tokenize-text)
+Rousseau is a lightweight proofreader written in Javascript, it can be used in Node.JS, in the command line and in the browser.
 
 ### Installation
 
 ```
-$ npm install @textlint-rule/rousseau
+$ npm install rousseau
 ```
 
 ### API
 
 ```js
-var rousseau = require("@textlint-rule/rousseau");
+var rousseau = require("rousseau");
 
 rousseau('So the cat was stolen.', function(err, results) {
     ...
