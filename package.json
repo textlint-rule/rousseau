@@ -1,23 +1,23 @@
 {
     "name": "rousseau",
     "version": "1.0.5",
-    "homepage": "https://github.com/GitbookIO/rousseau",
+    "homepage": "https://github.com/textlint-rule/rousseau",
     "description": "Lightweight proofreader",
     "main": "lib/index.js",
     "dependencies": {
-        "lodash": "^3.2.0",
-        "bash-color": "0.0.3",
-        "cli-table": "0.3.1",
-        "crc": "3.2.1",
-        "simple-lru-cache": "0.0.1",
-        "tokenize-text": "1.1.3",
+        "bash-color": "^0.0.4",
+        "cli-table": "^0.3.11",
+        "crc": "^4.1.1",
+        "find-line-column": "0.5.2",
+        "lodash": "^4.17.21",
+        "simple-lru-cache": "^0.0.2",
         "tokenize-english": "1.0.3",
         "tokenize-htmltext": "1.0.0",
-        "find-line-column": "0.5.2"
+        "tokenize-text": "1.1.3"
     },
     "devDependencies": {
-        "mocha": "2.3.3",
-        "should": "7.1.0"
+        "mocha": "^10.0.0",
+        "should": "^13.2.3"
     },
     "scripts": {
         "test": "mocha --reporter spec --recursive --bail"
@@ -30,7 +30,10 @@
         "url": "https://github.com/GitbookIO/rousseau.git"
     },
     "keywords": [
-        "proofreading", "language", "native", "spellcheck"
+        "proofreading",
+        "language",
+        "native",
+        "spellcheck"
     ],
     "author": "GitBook <contact@gitbook.com>",
     "license": "Apache-2.0",
