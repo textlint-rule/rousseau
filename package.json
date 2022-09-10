@@ -1,43 +1,58 @@
 {
-    "name": "rousseau",
-    "version": "1.0.5",
-    "homepage": "https://github.com/textlint-rule/rousseau",
-    "description": "Lightweight proofreader",
-    "main": "lib/index.js",
-    "dependencies": {
-        "bash-color": "^0.0.4",
-        "cli-table": "^0.3.11",
-        "crc": "^4.1.1",
-        "find-line-column": "0.5.2",
-        "lodash": "^4.17.21",
-        "simple-lru-cache": "^0.0.2",
-        "tokenize-english": "1.0.3",
-        "tokenize-htmltext": "1.0.0",
-        "tokenize-text": "1.1.3"
-    },
-    "devDependencies": {
-        "mocha": "^10.0.0",
-        "should": "^13.2.3"
-    },
-    "scripts": {
-        "test": "mocha --reporter spec --recursive --bail"
-    },
-    "bin": {
-        "rousseau": "./bin/rousseau.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GitbookIO/rousseau.git"
-    },
-    "keywords": [
-        "proofreading",
-        "language",
-        "native",
-        "spellcheck"
-    ],
-    "author": "GitBook <contact@gitbook.com>",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/GitbookIO/rousseau/issues"
-    }
+  "name": "rousseau",
+  "version": "1.0.5",
+  "homepage": "https://github.com/textlint-rule/rousseau",
+  "description": "Lightweight proofreader",
+  "main": "lib/index.js",
+  "dependencies": {
+    "bash-color": "^0.0.4",
+    "cli-table": "^0.3.11",
+    "crc": "^4.1.1",
+    "find-line-column": "0.5.2",
+    "lodash": "^4.17.21",
+    "simple-lru-cache": "^0.0.2",
+    "tokenize-english": "1.0.3",
+    "tokenize-htmltext": "1.0.0",
+    "tokenize-text": "1.1.3"
+  },
+  "devDependencies": {
+    "lint-staged": "^13.0.3",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --recursive --bail",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "prepare": "git config --local core.hooksPath .githooks"
+  },
+  "bin": {
+    "rousseau": "./bin/rousseau.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitbookIO/rousseau.git"
+  },
+  "keywords": [
+    "proofreading",
+    "language",
+    "native",
+    "spellcheck"
+  ],
+  "author": "GitBook <contact@gitbook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GitbookIO/rousseau/issues"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 4,
+    "trailingComma": "none"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write"
+    ]
+  }
 }
