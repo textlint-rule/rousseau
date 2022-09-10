@@ -1,12 +1,12 @@
 var rousseau = require("../lib");
 
 function testRousseau(text, opts, done, fn) {
-    rousseau(text, opts || {}, function(err, results) {
+    rousseau(text, opts || {}, function (err, results) {
         if (err) return done(err);
         try {
             fn(results);
             done();
-        } catch(err) {
+        } catch (err) {
             done(err);
         }
     });
