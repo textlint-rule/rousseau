@@ -41,5 +41,6 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "packageManager": "npm@8.19.1"
 }
