@@ -1,6 +1,6 @@
 {
     "name": "@textlint-rule/tokenize-htmltext",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "homepage": "https://github.com/GitbookIO/tokenize-htmltext",
     "description": "Tokenize HTML into a list of text tokens",
     "main": "index.js",

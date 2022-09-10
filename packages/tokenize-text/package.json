@@ -1,6 +1,6 @@
 {
   "name": "@textlint-rule/tokenize-text",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/GitbookIO/tokenize-text",
   "description": "Javascript text tokenizer that is easy to use and compose",
   "main": "lib/index.js",

@@ -1,13 +1,13 @@
 {
   "name": "@textlint-rule/rousseau",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/textlint-rule/rousseau",
   "description": "Lightweight proofreader",
   "main": "lib/index.js",
   "dependencies": {
-    "@textlint-rule/tokenize-english": "^2.0.0",
-    "@textlint-rule/tokenize-htmltext": "^2.0.0",
-    "@textlint-rule/tokenize-text": "^2.0.0",
+    "@textlint-rule/tokenize-english": "^2.0.1",
+    "@textlint-rule/tokenize-htmltext": "^2.0.1",
+    "@textlint-rule/tokenize-text": "^2.0.1",
     "bash-color": "^0.0.4",
     "cli-table": "^0.3.11",
     "crc": "^4.1.1",
