@@ -1,26 +1,26 @@
 {
-    "name": "tokenize-text",
-    "version": "1.1.3",
-    "homepage": "https://github.com/GitbookIO/tokenize-text",
-    "description": "Javascript text tokenizer that is easy to use and compose",
-    "main": "lib/index.js",
-    "dependencies": {
-        "lodash": "^3.2.0"
-    },
-    "devDependencies": {
-        "mocha": "2.3.3",
-        "should": "7.1.0"
-    },
-    "scripts": {
-        "test": "mocha --reporter spec --recursive --bail"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GitbookIO/tokenize-text.git"
-    },
-    "author": "GitBook <contact@gitbook.com>",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/GitbookIO/tokenize-text/issues"
-    }
+  "name": "tokenize-text",
+  "version": "1.1.3",
+  "homepage": "https://github.com/GitbookIO/tokenize-text",
+  "description": "Javascript text tokenizer that is easy to use and compose",
+  "main": "lib/index.js",
+  "dependencies": {
+    "lodash": "^3.2.0"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3",
+    "should": "7.1.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --recursive --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitbookIO/tokenize-text.git"
+  },
+  "author": "GitBook <contact@gitbook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GitbookIO/tokenize-text/issues"
+  }
 }
