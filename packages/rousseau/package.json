@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/rousseau.git"
+    "url": "https://github.com/textlint-rule/rousseau.git"
   },
   "keywords": [
     "proofreading",
@@ -39,7 +39,7 @@
   "author": "GitBook <contact@gitbook.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GitbookIO/rousseau/issues"
+    "url": "https://github.com/textlint-rule/rousseau/issues"
   },
   "publishConfig": {
     "access": "public"

@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/tokenize-text.git"
+    "url": "https://github.com/textlint-rule/tokenize-text.git"
   },
   "author": "GitBook <contact@gitbook.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GitbookIO/tokenize-text/issues"
+    "url": "https://github.com/textlint-rule/tokenize-text/issues"
   },
   "publishConfig": {
     "access": "public"

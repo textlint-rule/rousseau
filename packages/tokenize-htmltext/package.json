@@ -1,7 +1,7 @@
 {
     "name": "@textlint-rule/tokenize-htmltext",
     "version": "2.0.1",
-    "homepage": "https://github.com/GitbookIO/tokenize-htmltext",
+    "homepage": "https://github.com/textlint-rule/tokenize-htmltext",
     "description": "Tokenize HTML into a list of text tokens",
     "main": "index.js",
     "dependencies": {
@@ -16,12 +16,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/tokenize-htmltext.git"
+        "url": "https://github.com/textlint-rule/tokenize-htmltext.git"
     },
     "author": "GitBook <contact@gitbook.com>",
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/GitbookIO/tokenize-htmltext/issues"
+        "url": "https://github.com/textlint-rule/tokenize-htmltext/issues"
     },
     "publishConfig": {
         "access": "public"

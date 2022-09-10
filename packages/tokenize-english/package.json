@@ -1,7 +1,7 @@
 {
   "name": "@textlint-rule/tokenize-english",
   "version": "2.0.1",
-  "homepage": "https://github.com/GitbookIO/tokenize-english",
+  "homepage": "https://github.com/textlint-rule/tokenize-english",
   "description": "Tokenizer for english sentences",
   "main": "lib/index.js",
   "dependencies": {
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/tokenize-english.git"
+    "url": "https://github.com/textlint-rule/tokenize-english.git"
   },
   "author": "GitBook <contact@gitbook.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GitbookIO/tokenize-english/issues"
+    "url": "https://github.com/textlint-rule/tokenize-english/issues"
   },
   "publishConfig": {
     "access": "public"
