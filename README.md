@@ -5,10 +5,10 @@
 
 This monorepo includes following packages:
 
-- [packages/rousseau](rousseau)
-- [packages/tokenize-english](tokenize-english)
-- [packages/tokenize-htmltext](tokenize-htmltext)
-- [packages/tokenize-text](tokenize-text)
+- [packages/rousseau](packages/rousseau)
+- [packages/tokenize-english](packages/tokenize-english)
+- [packages/tokenize-htmltext](packages/tokenize-htmltext)
+- [packages/tokenize-text](packages/tokenize-text)
 
 ### Installation
 
