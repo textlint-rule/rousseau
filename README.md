@@ -3,6 +3,13 @@
 
 :memo: fork of [GitbookIO/rousseau: Lightweight proofreader in JS](https://github.com/GitbookIO/rousseau)
 
+This monorepo includes following packages:
+
+- [packages/rousseau](rousseau)
+- [packages/tokenize-english](tokenize-english)
+- [packages/tokenize-htmltext](tokenize-htmltext)
+- [packages/tokenize-text](tokenize-text)
+
 ### Installation
 
 ```
