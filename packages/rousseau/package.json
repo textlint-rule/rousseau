@@ -10,7 +10,7 @@
     "@textlint-rule/tokenize-text": "^2.0.2",
     "bash-color": "^0.0.4",
     "cli-table": "^0.3.11",
-    "crc": "^4.1.1",
+    "crc": "^4.3.1",
     "find-line-column": "0.5.2",
     "lodash": "^4.17.21",
     "simple-lru-cache": "^0.0.2"

@@ -5,11 +5,13 @@
   "description": "monorepo",
   "scripts": {
     "test": "npm run test -ws",
-    "versionup": "lerna version --conventional-commits",
-    "versionup:patch": "lerna version patch --conventional-commits",
-    "versionup:minor": "lerna version minor --conventional-commits",
-    "versionup:major": "lerna version major --conventional-commits",
+    "versionup": "lerna version",
+    "ci:versionup:patch": "lerna version patch --no-push --no-git-tag-version --yes && npm run commit-version",
+    "ci:versionup:minor": "lerna version minor --no-push --no-git-tag-version --yes && npm run commit-version",
+    "ci:versionup:major": "lerna version major --no-push --no-git-tag-version --yes && npm run commit-version",
+    "commit-version": "git add . && git commit -m \"chore(release): v`node -p 'require(\"./lerna.json\").version'`\"",
     "release": "lerna publish from-package",
+    "ci:release": "lerna publish from-package --yes",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks"
   },
@@ -35,9 +37,9 @@
     ]
   },
   "devDependencies": {
-    "lerna": "^5.5.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+    "lerna": "^6.4.1",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3"
   },
   "workspaces": [
     "packages/*"
