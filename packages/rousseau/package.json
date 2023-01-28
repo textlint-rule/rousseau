@@ -1,47 +1,47 @@
 {
-  "name": "@textlint-rule/rousseau",
-  "version": "2.0.3",
-  "homepage": "https://github.com/textlint-rule/rousseau",
-  "description": "Lightweight proofreader",
-  "main": "lib/index.js",
-  "dependencies": {
-    "@textlint-rule/tokenize-english": "^2.0.2",
-    "@textlint-rule/tokenize-htmltext": "^2.0.2",
-    "@textlint-rule/tokenize-text": "^2.0.2",
-    "bash-color": "^0.0.4",
-    "cli-table": "^0.3.11",
-    "crc": "^4.3.1",
-    "find-line-column": "0.5.2",
-    "lodash": "^4.17.21",
-    "simple-lru-cache": "^0.0.2"
-  },
-  "devDependencies": {
-    "mocha": "^10.0.0",
-    "should": "^13.2.3"
-  },
-  "scripts": {
-    "test": "mocha --reporter spec --recursive --bail",
-    "prepare": "git config --local core.hooksPath .githooks"
-  },
-  "bin": {
-    "rousseau": "./bin/rousseau.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/textlint-rule/rousseau.git"
-  },
-  "keywords": [
-    "proofreading",
-    "language",
-    "native",
-    "spellcheck"
-  ],
-  "author": "GitBook <contact@gitbook.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/textlint-rule/rousseau/issues"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@textlint-rule/rousseau",
+    "version": "2.0.4",
+    "homepage": "https://github.com/textlint-rule/rousseau",
+    "description": "Lightweight proofreader",
+    "main": "lib/index.js",
+    "dependencies": {
+        "@textlint-rule/tokenize-english": "^2.0.2",
+        "@textlint-rule/tokenize-htmltext": "^2.0.2",
+        "@textlint-rule/tokenize-text": "^2.0.2",
+        "bash-color": "^0.0.4",
+        "cli-table": "^0.3.11",
+        "crc": "^4.3.1",
+        "find-line-column": "0.5.2",
+        "lodash": "^4.17.21",
+        "simple-lru-cache": "^0.0.2"
+    },
+    "devDependencies": {
+        "mocha": "^10.0.0",
+        "should": "^13.2.3"
+    },
+    "scripts": {
+        "test": "mocha --reporter spec --recursive --bail",
+        "prepare": "git config --local core.hooksPath .githooks"
+    },
+    "bin": {
+        "rousseau": "./bin/rousseau.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/textlint-rule/rousseau.git"
+    },
+    "keywords": [
+        "proofreading",
+        "language",
+        "native",
+        "spellcheck"
+    ],
+    "author": "GitBook <contact@gitbook.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/textlint-rule/rousseau/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }
